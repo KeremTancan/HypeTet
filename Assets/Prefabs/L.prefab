@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6430061378251031979}
   - component: {fileID: 4291496680675358317}
   - component: {fileID: 6827019718646629858}
+  - component: {fileID: 5645915332067375211}
   m_Layer: 0
   m_Name: L
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 5157284287936148377}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.65916854, y: -0.9481032, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -131,3 +132,17 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!114 &5645915332067375211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5157284287936148377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f599d7fa3720ef94c93ced24eb5f327c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fallInterval: 1
+  gridSize: 0.5
